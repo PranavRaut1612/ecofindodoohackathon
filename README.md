@@ -1,141 +1,145 @@
-EcoFinds
+# 🌱 EcoFinds
 
-EcoFinds is a sustainable marketplace where users can buy, sell, and reuse pre-loved products. The goal is to make shopping affordable and reduce waste by giving items a second life.
+**EcoFinds** is a sustainable marketplace where users can buy, sell, and reuse pre-loved products. Our goal is to make shopping **affordable** and reduce **waste** by giving items a **second life**.
 
-Team Details
+---
 
-Team Name: EcoFinds
+## 👥 Team Details
 
-Team Leader
+<details>
+<summary>Team Leader</summary>
 
-Name: Pranav Raut
+- **Name:** Pranav Raut  
+- **Email:** [pranav05raut@gmail.com](mailto:pranav05raut@gmail.com)  
+- **Phone:** 7385660889  
 
-Email: pranav05raut@gmail.com
+</details>
 
-Phone: 7385660889
+<details>
+<summary>Reviewer</summary>
 
-Reviewer
+- **Name:** Aman Patel (ampa)  
 
-Name: Aman Patel (ampa)
+</details>
 
-Team Members
+<details>
+<summary>Team Members</summary>
 
-Roshan Raut
+- **Roshan Raut**  
+  - Email: [roshanraut537@gmail.com](mailto:roshanraut537@gmail.com)  
+  - Phone: 9075179293  
 
-Email: roshanraut537@gmail.com
+- **Om Sangole**  
+  - Email: [osangole714@gmail.com](mailto:osangole714@gmail.com)  
+  - Phone: 7385004778  
 
-Phone: 9075179293
+- **Vedant Kharche**  
+  - Email: [vedantrkharche9@gmail.com](mailto:vedantrkharche9@gmail.com)  
+  - Phone: 8600499655  
 
-Om Sangole
+</details>
 
-Email: osangole714@gmail.com
+---
 
-Phone: 7385004778
+## 📱 App Flow and Wireframes
 
-Vedant Kharche
+The application is designed to be **simple** and **user-friendly**. Click to expand each section:
 
-Email: vedantrkharche9@gmail.com
+<details>
+<summary>Login and Sign Up Screen</summary>
 
-Phone: 8600499655
+- App logo  
+- Email and password inputs  
+- Login button  
+- Sign-up link for new users  
 
-App Flow and Wireframes
+</details>
 
-The application is designed to be simple and user friendly. The following screens explain the flow:
+<details>
+<summary>Product Listing Feed Screen</summary>
 
-Login and Sign Up Screen
+- Header with app title/logo  
+- Search bar  
+- Category filter as buttons or dropdown  
+- List of product items showing image, title, and price  
+- Plus button to add a new product listing  
 
-App logo
+</details>
 
-Email and password inputs
+<details>
+<summary>Add New Product Screen</summary>
 
-Login button
+- Back button  
+- Screen title: Add New Product  
+- Fields for Product Title, Category (dropdown), Description, and Price  
+- Button to add image  
+- Submit Listing button  
 
-Sign-up link for new users
+</details>
 
-Product Listing Feed Screen
+<details>
+<summary>My Listings Screen</summary>
 
-Header with app title or logo
+- Header with app title/logo  
+- Plus button to add new product  
+- List of user’s products with image, title, and price  
+- Edit and Delete buttons for each product  
 
-Search bar
+</details>
 
-Category filter as buttons or dropdown
+<details>
+<summary>Product Detail Screen</summary>
 
-List of product items showing image, title, and price
+- Back button  
+- Large product image  
+- Product title, price, category, and description  
 
-Plus button to add a new product listing
+</details>
 
-Add New Product Screen
+<details>
+<summary>User Dashboard</summary>
 
-Back button
+- Header with app title/logo  
+- User profile image  
+- User details displayed  
+- Option to edit profile information  
 
-Screen title: Add New Product
+</details>
 
-Fields for Product Title, Category (dropdown), Description, and Price
+<details>
+<summary>Cart Screen</summary>
 
-Button to add image
+- Header with app title/logo  
+- Products added to cart shown in card layout with product details  
 
-Submit Listing button
+</details>
 
-My Listings Screen
+<details>
+<summary>Previous Purchases Screen</summary>
 
-Header with app title or logo
+- List of products purchased by the user in the past  
 
-Plus button to add new product
+</details>
 
-List of user’s products with image, title, and price
+---
 
-Edit and Delete buttons for each product
+## 🛠️ Tech Stack
 
-Product Detail Screen
+- **Frontend:** React (`ecoFinds/`)  
+- **Database:** MongoDB  
+- **Authentication:** JWT  
+- **File Uploads:** Multer for product images  
 
-Back button
+---
 
-Large product image
+## ⚡ How to Run Frontend
 
-Product title, price, category, and description
-
-User Dashboard
-
-Header with app title or logo
-
-User profile image
-
-User details displayed
-
-Option to edit profile information
-
-Cart Screen
-
-Header with app title or logo
-
-Products added to cart shown in card layout with product details
-
-Previous Purchases Screen
-
-List of products purchased by the user in the past
-
-Tech Stack
-
-Frontend: React (ecoFinds/)
-
-Database: MongoDB
-
-Authentication: JWT
-
-File Uploads: Multer for product images
-
-How to Run Frontend
-
-Go to the project folder
-
+```bash
+# Go to the project folder
 cd ecoFinds
 
-
-Install dependencies
-
+# Install dependencies
 npm install
 
-
-Start the development server
-
+# Start the development server
 npm start
