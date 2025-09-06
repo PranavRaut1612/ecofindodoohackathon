@@ -1,5 +1,5 @@
 import { Product, User, Purchase } from '@/types';
-
+// import 'public/kidstudy.avif'
 export const mockUser: User = {
   id: '1',
   username: 'john_eco',
@@ -95,6 +95,62 @@ export const mockProducts: Product[] = [
     isAvailable: true,
     createdAt: new Date('2024-03-06'),
     updatedAt: new Date('2024-03-06')
+  },
+  {
+    id: '7',
+    title: 'Yoga Mat Eco-Friendly',
+    description: 'Non-slip yoga mat made from natural materials. Ideal for home workouts and yoga practice.',
+    price: 40,
+    category: 'Fitness',
+    images: ['/yogamat.jpg'],
+    sellerId: '6',
+    sellerName: 'David Kim',
+    condition: 'new',
+    isAvailable: true,
+    createdAt: new Date('2024-03-02'),
+    updatedAt: new Date('2024-03-02')
+  },
+  {
+    id: '8',
+    title: 'Classic Wall Clock',
+    description: 'Elegant wall clock with wooden frame. Adds a vintage touch to your living room.',
+    price: 50,
+    category: 'Home Decor',
+    images: ['/wallclock.jpg'],
+    sellerId: '8',
+    sellerName: 'Nina Gupta',
+    condition: 'good',
+    isAvailable: true,
+    createdAt: new Date('2024-02-10'),
+    updatedAt: new Date('2024-02-10')
+  },
+  {
+    id: '9',
+    title: 'Kids Study Table',
+    description: 'Compact study table for kids with drawers. Perfect for bedrooms or playrooms.',
+    price: 150,
+    category: 'Furniture',
+    images: ['/kidstudy.avif'],
+    sellerId: '9',
+    sellerName: 'Rachel Adams',
+    condition: 'good',
+    isAvailable: true,
+    createdAt: new Date('2024-01-30'),
+    updatedAt: new Date('2024-01-30')
+  },
+  {
+    id: '10',
+    title: 'Vintage Floor Lamp',
+    description: 'Industrial-style floor lamp with adjustable height. Perfect for living rooms or bedrooms.',
+    price: 85,
+    category: 'Home Decor',
+    images: ['/lamp.jpg'],
+    sellerId: '10',
+    sellerName: 'Kevin Brown',
+    condition: 'good',
+    isAvailable: true,
+    createdAt: new Date('2024-02-05'),
+    updatedAt: new Date('2024-02-05')
   }
 ];
 
