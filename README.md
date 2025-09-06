@@ -1,73 +1,141 @@
-# Welcome to your Lovable project
+EcoFinds
 
-## Project info
+EcoFinds is a sustainable marketplace where users can buy, sell, and reuse pre-loved products. The goal is to make shopping affordable and reduce waste by giving items a second life.
 
-**URL**: https://lovable.dev/projects/9a376a8b-a810-4449-a711-a4e6c43f4b55
+Team Details
 
-## How can I edit this code?
+Team Name: EcoFinds
 
-There are several ways of editing your application.
+Team Leader
 
-**Use Lovable**
+Name: Pranav Raut
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9a376a8b-a810-4449-a711-a4e6c43f4b55) and start prompting.
+Email: pranav05raut@gmail.com
 
-Changes made via Lovable will be committed automatically to this repo.
+Phone: 7385660889
 
-**Use your preferred IDE**
+Reviewer
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Name: Aman Patel (ampa)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Team Members
 
-Follow these steps:
+Roshan Raut
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Email: roshanraut537@gmail.com
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Phone: 9075179293
 
-# Step 3: Install the necessary dependencies.
-npm i
+Om Sangole
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Email: osangole714@gmail.com
 
-**Edit a file directly in GitHub**
+Phone: 7385004778
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Vedant Kharche
 
-**Use GitHub Codespaces**
+Email: vedantrkharche9@gmail.com
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Phone: 8600499655
 
-## What technologies are used for this project?
+App Flow and Wireframes
 
-This project is built with:
+The application is designed to be simple and user friendly. The following screens explain the flow:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Login and Sign Up Screen
 
-## How can I deploy this project?
+App logo
 
-Simply open [Lovable](https://lovable.dev/projects/9a376a8b-a810-4449-a711-a4e6c43f4b55) and click on Share -> Publish.
+Email and password inputs
 
-## Can I connect a custom domain to my Lovable project?
+Login button
 
-Yes, you can!
+Sign-up link for new users
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Product Listing Feed Screen
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Header with app title or logo
+
+Search bar
+
+Category filter as buttons or dropdown
+
+List of product items showing image, title, and price
+
+Plus button to add a new product listing
+
+Add New Product Screen
+
+Back button
+
+Screen title: Add New Product
+
+Fields for Product Title, Category (dropdown), Description, and Price
+
+Button to add image
+
+Submit Listing button
+
+My Listings Screen
+
+Header with app title or logo
+
+Plus button to add new product
+
+List of user’s products with image, title, and price
+
+Edit and Delete buttons for each product
+
+Product Detail Screen
+
+Back button
+
+Large product image
+
+Product title, price, category, and description
+
+User Dashboard
+
+Header with app title or logo
+
+User profile image
+
+User details displayed
+
+Option to edit profile information
+
+Cart Screen
+
+Header with app title or logo
+
+Products added to cart shown in card layout with product details
+
+Previous Purchases Screen
+
+List of products purchased by the user in the past
+
+Tech Stack
+
+Frontend: React (ecoFinds/)
+
+Database: MongoDB
+
+Authentication: JWT
+
+File Uploads: Multer for product images
+
+How to Run Frontend
+
+Go to the project folder
+
+cd ecoFinds
+
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm start
